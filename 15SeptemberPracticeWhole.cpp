@@ -1,11 +1,6 @@
 #include <iostream>
 using namespace std;
 
-void print(int **p){
-    **p++;
-
-}
-
 int main(){
 //     int arr[2][2]={{1,2},{3,4}};
 //     int ar[2][2];
@@ -26,8 +21,7 @@ int main(){
     int c=10;
     int *ptr=&c;
     cout<<ptr<<endl;
-    print(&ptr);
-    cout<<ptr<<endl;
+    
 
 
 
